@@ -9,7 +9,7 @@ export default function Form() {
     }
 
     return (
-        <form  action=".submit_forn">
+        <form className='form' action=".submit_forn">
             <laber>
                 <p>{state}</p>
                 <input className='text' value={state} onChange={changeValue}  />

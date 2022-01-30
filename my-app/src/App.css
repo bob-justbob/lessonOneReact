@@ -47,7 +47,12 @@
 }
 
 .text {
-  width: 250px;
-  height: 70px;
+  width: 260px;
+  height: 60px;
   color: lightgray;
+}
+
+.form {
+  height: 180px;
+  text-align: left;
 }

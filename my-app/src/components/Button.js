@@ -1,6 +1,12 @@
 
 export default function Button(props) {
+
+    function btnClicked(){
+  
+        alert('form is submitt');
+      }
+
     return (
-        <button className="btn">{props.text}</button>
+        <button onClick={btnClicked} className="btn">{props.text}</button>
     )
 }
